@@ -167,7 +167,5 @@ bool ParseFantasyLife(FILE *infile, bool quietMode)
 		free(buffer);
 	}
 
-	fclose(infile);
-
 	return true;
 }
