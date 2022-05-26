@@ -1,7 +1,10 @@
 #include <sys/stat.h>
+#include <cstring>
 
 #ifdef _WIN32
 #include <direct.h>
+#else
+#include <unistd.h>
 #endif
 
 #include "utils.h"
